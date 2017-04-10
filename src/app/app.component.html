@@ -1,25 +1,19 @@
-<div class="container" [dragula]="'first-bag'">
+<section fxLayout="row">
+  <div class="container" fxFlex="33" [dragula]="'first-bag'">
 
-  <md-card>
-    <md-card-title>test</md-card-title>
-    <md-card-content>
-      stuff
-    </md-card-content>
-  </md-card> 
+  <app-work-item></app-work-item>
 
 
-</div>
+  </div>
 
 
-<div class="container" [dragula]="'first-bag'">
-
-  <md-card>
-    <md-card-title>2</md-card-title>
-    <md-card-content>
-      thing
-    </md-card-content>
-  </md-card> 
+  <div class="container" fxFlex="33" [dragula]="'first-bag'">
 
 
+  <app-work-item></app-work-item>
 
-</div>
+
+  </div>
+
+  <div class="container" fxFlex="33" [dragula]="'first-bag'"></div>
+</section>
