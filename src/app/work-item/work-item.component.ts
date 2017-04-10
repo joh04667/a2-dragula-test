@@ -9,7 +9,7 @@ export class WorkItemComponent implements OnInit {
 
   @Input() title;
   @Input() message;
-  
+
   constructor() { }
 
   ngOnInit() {
